@@ -33,7 +33,7 @@ help:
 	@grep -E '^### [-A-Za-z0-9_]+:' Makefile | sed 's/###/   /'
 
 
-### build:		Build the Apache APISIX Dashboard, including web and manager-api
+### build:		Build the APIROUTER Dashboard, including web and manager-api
 .PHONY: build
 build: web-default api-default
 	api/build.sh && cd ./web && export CYPRESS_INSTALL_BINARY=0  && yarn install --ignore-scripts && yarn build  && mkdir -p ../output/logs

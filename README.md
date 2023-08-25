@@ -17,7 +17,7 @@
 #
 -->
 
-# Apache APISIX Dashboard
+# APIROUTER Dashboard
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/apache/apisix-dashboard/blob/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/apache/apisix-dashboard)](https://goreportcard.com/report/github.com/apache/apisix-dashboard)
@@ -35,9 +35,9 @@
 
 - The latest released version is [3.0.1](https://apisix.apache.org/downloads/) and is compatible with [Apache APISIX 3.0.x](https://apisix.apache.org/downloads/).
 
-## What's Apache APISIX Dashboard
+## What's APIROUTER Dashboard
 
-The Apache APISIX Dashboard is designed to make it as easy as possible for users to operate [Apache APISIX](https://github.com/apache/apisix) through a frontend interface.
+The APIROUTER Dashboard is designed to make it as easy as possible for users to operate [Apache APISIX](https://github.com/apache/apisix) through a frontend interface.
 
 The Dashboard is the control plane and performs all parameter checks; Apache APISIX mixes data and control planes and will evolve to a pure data plane.
 

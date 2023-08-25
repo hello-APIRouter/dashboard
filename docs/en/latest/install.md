@@ -21,7 +21,7 @@ title: Basic Deploy
 #
 -->
 
-Installing Apache APISIX Dashboard on Linux is easy.
+Installing APIROUTER Dashboard on Linux is easy.
 Now, we provide Docker image and RPM installation package.
 
 ## Docker {#docker}

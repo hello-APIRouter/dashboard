@@ -25,7 +25,7 @@ title: Import OpenAPI Guide
 
 The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
 
-Apache APISIX Dashboard supports importing [OpenApi3.0](https://swagger.io/specification/)(we will use OAS3.0 for short) files, both `json` and `yaml` are supported, to create one or more Routes. Currently we support most of the OpenApi specifications, but there are some differences, which are in terms of compatibility and extended fields.
+APIROUTER Dashboard supports importing [OpenApi3.0](https://swagger.io/specification/)(we will use OAS3.0 for short) files, both `json` and `yaml` are supported, to create one or more Routes. Currently we support most of the OpenApi specifications, but there are some differences, which are in terms of compatibility and extended fields.
 
 ## Extended fields
 

@@ -23,7 +23,7 @@ context('Logout Test', () => {
 
   it('logout', () => {
     cy.visit('/');
-    cy.contains('.anticon', 'APISIX User', {
+    cy.contains('.anticon', 'APIROUTER User', {
       matchCase: false,
     }).click({
       force: true,

@@ -105,7 +105,7 @@ const Page: React.FC = () => {
             </Link>
           </div>
           <div className={styles.desc}>
-            Apache APISIX Dashboard
+            APIROUTER Dashboard
             <br />
             Cloud-Native Microservices API Gateway
           </div>

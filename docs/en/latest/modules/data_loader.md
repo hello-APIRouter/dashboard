@@ -5,7 +5,7 @@ keywords:
 - APISIX Dashboard
 - Data Loader
 - OpenAPI
-description: This document contains information about the Apache APISIX Dashboard data loader framework.
+description: This document contains information about the APIROUTER Dashboard data loader framework.
 ---
 
 <!--

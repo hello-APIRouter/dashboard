@@ -23,7 +23,7 @@ title: FAQ
 
 ### 1. Vue.js version of the Dashboard
 
-If you need a Vue.js build of the Apache APISIX Dashboard 1.0, use the [master-vue branch](https://github.com/apache/apisix-dashboard/tree/master-vue).
+If you need a Vue.js build of the APIROUTER Dashboard 1.0, use the [master-vue branch](https://github.com/apache/apisix-dashboard/tree/master-vue).
 
 ### 2. What are the differences between Dashboard version 2.0 and version 1.5?
 
@@ -31,7 +31,7 @@ The 2.0 version of the dashboard removed MySQL from [version 1.5](https://github
 
 ### 3. Etcd compatibility issues
 
-If you are using Apache APISIX below v2.0, be aware that the data from the etcd v2 API is [not compatible](https://etcd.io/docs/v3.4.0/op-guide/v2-migration/) with the data from the v3 API. Apache APISIX Dashboard v2.0 and above uses the etcd v3 API, and apisix 1.5 and below uses the etcd v2 API.
+If you are using Apache APISIX below v2.0, be aware that the data from the etcd v2 API is [not compatible](https://etcd.io/docs/v3.4.0/op-guide/v2-migration/) with the data from the v3 API. APIROUTER Dashboard v2.0 and above uses the etcd v3 API, and apisix 1.5 and below uses the etcd v2 API.
 
 ### 4. After modifying the plugin schema or creating a custom plugin in Apache APISIX, why can't I find it on the dashboard?
 

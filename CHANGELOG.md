@@ -163,7 +163,7 @@
 
 This release contains some features and bugfixes, and all the existing functionalities are compatible with Apache APISIX 2.13.x.
 
-Notice: Starting with this release, Apache APISIX Dashboard will use the same version number as the Apache APISIX it supports.
+Notice: Starting with this release, APIROUTER Dashboard will use the same version number as the Apache APISIX it supports.
 
 ### Core
 

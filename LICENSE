@@ -201,9 +201,9 @@
    limitations under the License.
 
 =======================================================================
-Apache APISIX Dashboard Subcomponents:
+APIROUTER Dashboard Subcomponents:
 
-The Apache APISIX Dashboard project contains subcomponents with separate copyright
+The APIROUTER Dashboard project contains subcomponents with separate copyright
 notices and license terms. Your use of the source code for the these
 subcomponents is subject to the terms and conditions of the following
 licenses.

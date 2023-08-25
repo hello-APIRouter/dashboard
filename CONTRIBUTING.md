@@ -17,9 +17,9 @@
 #
 -->
 
-# Contributing to Apache APISIX Dashboard
+# Contributing to APIROUTER Dashboard
 
-We would love for you to contribute to Apache APISIX Dashboard and help make it even better than it is today! As a contributor, here are the guidelines we would like you to follow:
+We would love for you to contribute to APIROUTER Dashboard and help make it even better than it is today! As a contributor, here are the guidelines we would like you to follow:
 
 - [Code of Conduct](#coc)
 - [How to contribute?](#contribute)

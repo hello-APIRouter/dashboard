@@ -149,7 +149,7 @@ welcome() {
   echo "Capable of making the necessary changes in yaml file & revert back to original state."
   echo "Services: "
   echo "1. Three etcd nodes."
-  echo "2. Two apisix nodes."
+  echo "2. Two apirouter nodes."
   echo -e "3. Single node of\n\t manager-api \n\t skywalking \n\t upstream-node \n\t upstream-grpc \n\t upstream-echo"
   echo -e "=====================================================\n"
 }

@@ -20,7 +20,7 @@ import React from 'react';
 
 export default () => (
   <DefaultFooter
-    copyright={`${new Date().getFullYear()} Apache APISIX`}
+    copyright={`${new Date().getFullYear()} APIROUTER`}
     links={[
       {
         key: 'GitHub',

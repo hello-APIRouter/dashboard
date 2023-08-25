@@ -21,7 +21,7 @@ title: i18n User Guide
 #
 -->
 
-The Apache APISIX Dashboard uses [@umijs/plugin-locale](https://umijs.org/plugins/plugin-locale) to solve the i18n issues, in order to make the i18n more clear and reasonable, we would recommend to obey the following rules
+The APIROUTER Dashboard uses [@umijs/plugin-locale](https://umijs.org/plugins/plugin-locale) to solve the i18n issues, in order to make the i18n more clear and reasonable, we would recommend to obey the following rules
 
 ## Location of locale configuration
 

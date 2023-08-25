@@ -2,7 +2,7 @@
   "name": "apisix-dashboard",
   "version": "3.0.1",
   "private": true,
-  "description": "Dashboard for Apache APISIX",
+  "description": "Dashboard for APIROUTER",
   "scripts": {
     "prepare": "cd .. && husky install web/.husky",
     "analyze": "cross-env ANALYZE=1 yarn run build",
