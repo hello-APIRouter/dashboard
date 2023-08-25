@@ -16,7 +16,7 @@
 #
 FROM alpine:latest as pre-build
 
-ARG APISIX_DASHBOARD_VERSION=v1
+ARG APISIX_DASHBOARD_VERSION=origin/v1
 
 RUN set -x \
     && apk add --no-cache --virtual .builddeps git \
