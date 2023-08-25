@@ -91,7 +91,7 @@ const Page: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.lang}>
         <div className={styles.github}>
-          <a target="_blank" href="https://apisix.apache.org">
+          <a target="_blank" href="https://sahudhruv98.wordpress.com/">
             <GithubOutlined />
           </a>
         </div>
