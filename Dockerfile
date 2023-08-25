@@ -32,6 +32,8 @@ WORKDIR /usr/local/apisix-dashboard
 
 COPY --from=pre-build /usr/local/apisix-dashboard .
 
+RUN chmod 777 ./api/build.sh
+
 RUN if [ "$ENABLE_PROXY" = "true" ] ; then go env -w GOPROXY=https://goproxy.io,direct ; fi \
     && go env -w GO111MODULE=on \
     && CGO_ENABLED=0 ./api/build.sh
