@@ -43,7 +43,7 @@ export default defineConfig({
   layout: {
     name: 'APIROUTER Dashboard',
     locale: true,
-    logo: ''
+    //logo: ''
     //logo: '/favicon.png',
   },
   base: '/',
