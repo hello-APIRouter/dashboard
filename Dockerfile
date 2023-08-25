@@ -16,11 +16,11 @@
 #
 FROM alpine:latest as pre-build
 
-ARG APISIX_DASHBOARD_VERSION=origin/v1
+ARG APISIX_DASHBOARD_VERSION=v1
 
 RUN set -x \
     && apk add --no-cache --virtual .builddeps git \
-    && git clone https://github.com/apache/apisix-dashboard.git -b ${APISIX_DASHBOARD_VERSION} /usr/local/apisix-dashboard \
+    && git clone https://github.com/hello-APIRouter/dashboard.git -b ${APISIX_DASHBOARD_VERSION} /usr/local/apisix-dashboard \
     && cd /usr/local/apisix-dashboard && git clean -Xdf \
     && rm -f ./.githash && git log --pretty=format:"%h" -1 > ./.githash
 
